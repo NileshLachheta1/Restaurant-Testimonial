@@ -25,7 +25,7 @@ export default function ContactForm() {
                             <div>
                                 <input type="text"
                                     class="w-full p-2 text-sm border-b-2 border-gray-400 outline-none text-white bg-black focus:border-blue-400"
-                                    placeholder="Subject" />
+                                    placeholder="Enter Contact" />
                             </div>
                             <div>
                                 <textarea name="message"
