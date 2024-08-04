@@ -10,16 +10,13 @@ function App() {
   return (
     <>
       <Navbar />
-        <Routes>
-          <Route path='/' element={<Homepage />}></Route>
-          <Route path='/about' element={<Homepage />}></Route>
-          <Route path='/menu' element={<MenuPage />}></Route>
-          <Route path='/contact' element={<Contact />}></Route>
-        </Routes>
-
+      <Routes>
+        <Route path='/' element={<Homepage />}></Route>
+        <Route path='/about' element={<Homepage />}></Route>
+        <Route path='/menu' element={<MenuPage />}></Route>
+        <Route path='/contact' element={<Contact />}></Route>
+      </Routes>
       <Footer />
-
-
     </>
   )
 }

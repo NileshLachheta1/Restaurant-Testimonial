@@ -10,7 +10,9 @@ import HomeBanner from '../HomeBanner/HomeBanner.jsx';
 export default function Homepage() {
     return (
         <>
+
             <HomeBanner/>
+            
             <Introduction />
             <PopularItems />
             <Menu />

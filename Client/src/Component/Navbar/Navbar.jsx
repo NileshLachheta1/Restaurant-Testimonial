@@ -24,8 +24,8 @@ const Navbar = () => {
   return (
     <>
       <div className='w-full bg-black opacity-80 text-white fixed z-10  '>
-        <ul className='grid sm:grid-cols-3 lg:mx-12 xl:mx-24 text-white bg-black opacity-90 px-4 '>
-          <li className='p-2'><span className='text-yellow-400'>Opening Hour : </span><span>09:00 am - 10:00 pm</span></li>
+        <ul className='grid sm:grid-cols-3 lg:mx-12 xl:mx-24 text-white bg-black opacity-90 px-3 '>
+          <li className='p-2'><span className='text-yellow-400 m-1'>Opening Hour : </span><span>09:00am - 10:00pm</span></li>
           <li className='p-2 flex'><span><MdOutlineEmail className='text-yellow-400 text-xl m-1' /></span><span>info@gmail.com</span></li>
           <li className='p-2 flex'><span><MdLocationOn className='text-yellow-400 text-xl m-1' /></span><span>Khandwa Naka Ganesh Nagar</span></li>
         </ul>

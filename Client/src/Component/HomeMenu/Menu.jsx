@@ -5,7 +5,7 @@ import { BsSuitDiamond } from "react-icons/bs";
 export default function Menu() {
     return (
         <>
-            <h2 className='flex justify-center text-yellow-700 text-2xl font-serif p-2'><BsSuitDiamond className='text-yellow-700 m-1 text-xl' />Our Menu Items <BsSuitDiamond className='text-yellow-700 m-1 text-xl' /></h2>
+            <h2 className='flex justify-center  text-yellow-700 text-2xl font-serif p-2'><BsSuitDiamond className='text-yellow-700 m-1 text-xl' />Our Menu Items <BsSuitDiamond className='text-yellow-700 m-1 text-xl' /></h2>
             <div className='grid m-2 sm:grid-cols-3 md:grid-cols-3 lg:grid-cols-3 xl:grid-cols-3 sm:space-x-6 mt-12 space-y-4 sm:space-y-0 xl:mx-24'>
                 <div className="relative group overflow-hidden transition-transform duration-300 ease-in-out transform hover:scale-110 hover:shadow-lg">
                     <div className="absolute z-[-10] w-full ">

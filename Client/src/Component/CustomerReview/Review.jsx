@@ -1,10 +1,12 @@
 import React from 'react';
+import { BsSuitDiamond } from "react-icons/bs";
 import './Review.css'; // Make sure to update the path to your CSS file
 
 const CardSlider = () => {
     return (
         <>
-            <div className='grid md:grid-cols-2 md:mx-4 lg:grid-cols-2 lg:mx-12 xl:grid-cols-2 xl:mx-24 pt-52'>
+        <h2 className='flex justify-center text-yellow-700 text-2xl font-serif p-2'><BsSuitDiamond className='text-yellow-700 m-1 text-xl' />Customer's Review <BsSuitDiamond className='text-yellow-700 m-1 text-xl' /></h2>
+            <div className='grid md:grid-cols-2 md:mx-4 lg:grid-cols-2 lg:mx-12 xl:grid-cols-2 xl:mx-24 py-5'>
                 <div className=''>
                     <img src="https://www.partstown.com/about-us/wp-content/uploads/2019/10/Friends-Dining-Together-6-Ways-to-Enhance-Customer-Experience-in-Your-Restaurant.png" className='w-full rounded-xl' alt="" />
                 </div>
