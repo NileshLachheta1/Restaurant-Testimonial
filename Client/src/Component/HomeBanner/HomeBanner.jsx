@@ -1,8 +1,8 @@
 import React, { useState } from 'react';
 import { BsChevronCompactLeft, BsChevronCompactRight } from 'react-icons/bs';
-// import { RxDotFilled } from 'react-icons/rx';
 
 function HomeBanner() {
+
   const slides = [
     {
       url: 'https://img.freepik.com/free-photo/design-restaurant-dining-background_1409-7401.jpg?t=st=1722756792~exp=1722760392~hmac=d5e34e24bb176554b20985ba602ab87aed0f590271b8727ce2997e68132668a9&w=1060',
@@ -35,10 +35,6 @@ function HomeBanner() {
     const newIndex = isLastSlide ? 0 : currentIndex + 1;
     setCurrentIndex(newIndex);
   };
-
-  // const goToSlide = (slideIndex) => {
-  //   setCurrentIndex(slideIndex);
-  // };
 
   return (
     <div className='grid'>
