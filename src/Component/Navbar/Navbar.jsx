@@ -14,11 +14,11 @@ const Navbar = () => {
 
   // Array containing navigation items
   const navItems = [
-    { id: 1, text: 'Home', route: "" },
-    { id: 2, text: 'Menu', route: "menu" },
-    { id: 3, text: 'About', route: "about" },
-    { id: 4, text: 'Blog', route: "blog" },
-    { id: 5, text: 'Contact', route: "contact" },
+    { id: 1, text: 'Home', route: "Restaurant-Testimonial/" },
+    { id: 2, text: 'Menu', route: "Restaurant-Testimonial/menu" },
+    { id: 3, text: 'About', route: "Restaurant-Testimonial/about" },
+    { id: 4, text: 'Blog', route: "Restaurant-Testimonial/blog" },
+    { id: 5, text: 'Contact', route: "Restaurant-Testimonial/contact" },
   ];
 
   return (
